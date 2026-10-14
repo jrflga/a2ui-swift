@@ -52,9 +52,10 @@ let package = Package(
         ),
     ],
     dependencies: [
+        // Fork do jrflga (FORK.md).
         .package(
-            url: "https://github.com/ajevans99/swift-json-schema.git",
-            .upToNextMinor(from: "0.13.1")
+            url: "https://github.com/jrflga/swift-json-schema.git",
+            exact: "0.13.2-jrflga.1"
         ),
     ],
     targets: [
