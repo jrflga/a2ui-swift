@@ -55,7 +55,7 @@ let package = Package(
         // Fork do jrflga (FORK.md).
         .package(
             url: "https://github.com/jrflga/swift-json-schema.git",
-            exact: "0.13.2-jrflga.1"
+            exact: "0.13.2-jrflga.2"
         ),
     ],
     targets: [
