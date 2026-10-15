@@ -21,6 +21,9 @@ let package = Package(
     platforms: [
         .iOS(.v17),
         .macOS(.v14),
+        // Fork do jrflga: o renderer usa `allowsVideoFrameAnalysis`, que no Mac
+        // Catalyst só existe a partir do 18 (FORK.md).
+        .macCatalyst("18.0"),
         .tvOS(.v17),
         .watchOS(.v10),
         .visionOS(.v1),
